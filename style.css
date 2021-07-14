@@ -90,7 +90,33 @@ body{
     margin-top: 20px;
     font-size: 18px;
 }
-/* responsiveness */
+/*----------------- Bottom-section styles--------------------- */
+.Subscribe-heading{
+    color: navy;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+.input-box{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.button{
+    background-color: navy;
+}
+.Bottom-section{
+    display: flex;
+    padding-left: 5%;
+    padding-top: 40px;
+}
+.Youtube-vedio{
+    padding-left: 7%;
+    
+}
+/* -------------------------------------------
+---------------responsiveness------------------
+-------------------------------------------------- */
+
 @media only screen and (max-width: 450px) {
         
     
@@ -124,6 +150,9 @@ body{
     }
     .header-title{
         font-size: 47px;
+    }
+    .Bottom-section{
+        display: none;
     }
     
 }
