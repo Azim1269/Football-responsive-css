@@ -1,0 +1,63 @@
+/* ----Fonts styles---- */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* --------header styles------ */
+.header-section{
+    display: flex;
+    background-color: #2D25A0;
+    width: 1440px;
+    height: 677px;
+    margin-bottom: 70px;
+}
+.header-title{
+    color: white;
+    font-size: 64px;
+    font-weight: 700;
+}
+.header-details{
+        padding-left: 156px;
+         padding-top: 207px;
+         padding-bottom: 169px;
+        }
+
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    
+}
+.banner img{
+     width: 556px;
+     height: 438px;
+     padding-top: 156px;
+     padding-right: 140px;
+}
+/*----------Players styles------- */
+.container{
+    margin-bottom: 27px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    padding-left: 180px;
+    padding-right: 210px;
+}
+.box-shadow{
+    box-shadow: 0px 0px 40px 0px rgb(214, 214, 214);
+    
+}
+.player img{
+  width: 300px;
+  height: 256px;
+  
+}
+.player-name{
+    font-size: 28px;
+    font-weight: 700px;
+}
+.player{
+    padding: 15px;
+}
