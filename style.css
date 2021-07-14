@@ -1,31 +1,33 @@
 /* ----Fonts styles---- */
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
+
 /* --------header styles------ */
 .header-section{
     display: flex;
     background-color: #2D25A0;
     width: 1440px;
     height: 677px;
+    padding-bottom: 169px;
     margin-bottom: 70px;
 }
+.header-details{
+    padding-left: 156px;
+     padding-top: 207px;
+     }
 .header-title{
     color: white;
     font-size: 64px;
     font-weight: 700;
 }
-.header-details{
-        padding-left: 156px;
-         padding-top: 207px;
-         padding-bottom: 169px;
-        }
-
 .link-button{
     text-decoration: none;
     color: white;
     background-color: #E02C6D;
     padding: 10px 24px;
+    
     
 }
 .banner img{
@@ -45,6 +47,9 @@ body{
     padding-left: 180px;
     padding-right: 210px;
 }
+.player{
+    padding: 15px;
+}
 .box-shadow{
     box-shadow: 0px 0px 40px 0px rgb(214, 214, 214);
     
@@ -58,6 +63,26 @@ body{
     font-size: 28px;
     font-weight: 700px;
 }
-.player{
-    padding: 15px;
+
+/* -------------------------
+       footer styles
+----------------------------- */
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.icons{
+    width: 32px;
+    height: 32px;
+    color: gray;
+    padding: 14px;
+    margin-top: 20px;
+    
+}
+.copyright{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
